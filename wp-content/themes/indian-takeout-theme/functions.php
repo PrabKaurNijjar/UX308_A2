@@ -1,4 +1,3 @@
-cat > wp-content/themes/indian-takeout-theme/functions.php << 'EOF'
 <?php
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
@@ -8,4 +7,3 @@ function theme_enqueue_styles() {
     wp_enqueue_script_module('custom_javascript1', 'https://PrabKaurNijjar.github.io/UX308_A2/fab.js');
     wp_enqueue_script_module('custom_javascript2', 'https://PrabKaurNijjar.github.io/UX308_A2/chat.js');
 }
-EOF
